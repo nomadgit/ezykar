@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 Etsydemo::Application.configure do
+=======
+Rails.application.configure do
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
+<<<<<<< HEAD
   # your application in memory, allowing both thread web servers
+=======
+  # your application in memory, allowing both threaded web servers
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
@@ -32,8 +40,12 @@ Etsydemo::Application.configure do
   # Generate digests for assets URLs.
   config.assets.digest = true
 
+<<<<<<< HEAD
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
+=======
+  # `config.assets.precompile` has moved to config/initializers/assets.rb
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
@@ -66,7 +78,11 @@ Etsydemo::Application.configure do
   # config.action_mailer.raise_delivery_errors = false
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
+<<<<<<< HEAD
   # the I18n.default_locale when a translation can not be found).
+=======
+  # the I18n.default_locale when a translation cannot be found).
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners.
@@ -78,6 +94,11 @@ Etsydemo::Application.configure do
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
 
+<<<<<<< HEAD
   # Required for Devise. Remember to change localhost:3000 to actual application host
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+=======
+  # Do not dump schema after migrations.
+  config.active_record.dump_schema_after_migration = false
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
 end

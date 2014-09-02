@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Etsydemo::Application.routes.draw do
 
   devise_for :users
@@ -12,6 +13,12 @@ Etsydemo::Application.routes.draw do
   get 'purchases' => "orders#purchases"
 
   root 'listings#index'
+=======
+Rails.application.routes.draw do
+  get 'pages/about'
+
+  get 'pages/contact'
+>>>>>>> 535b325f1825b096bad59b4a63b91c7aa31f4e9d
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
